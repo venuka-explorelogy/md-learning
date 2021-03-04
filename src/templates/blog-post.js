@@ -26,10 +26,10 @@ export default function Templateblog({ data }) {
 }
 
 export const pageQuery = graphql`
-  query($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+  query($path: String!) {
+    markdownRemark(fields: { slug: { eq: $path } }) {
       html
-      fields {
+      fields{
         slug
       }
       frontmatter {

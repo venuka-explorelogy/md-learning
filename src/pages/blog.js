@@ -10,6 +10,9 @@ const Blog = () => {
     query MyQuery {
         allMarkdownRemark(sort: {order: DESC, fields: frontmatter___date}) {
           nodes {
+    fields {
+            slug
+                }
             frontmatter {
               date(fromNow: true)
               slug
@@ -38,7 +41,7 @@ const Blog = () => {
                             return (
                                 <div className="col-md-6" key={index}>
                                     <BlogCover
-                                        to={post.frontmatter.slug}
+                                        to={post.fields.slug}
                                         title={post.frontmatter.title}
                                         date={post.frontmatter.date}
                                         subtitle={post.frontmatter.subtitle}
