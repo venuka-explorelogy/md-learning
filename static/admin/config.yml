@@ -11,5 +11,6 @@ collections:
     fields:
       - { name: title, label: Title }
       - { name: subtitle, label: subtitle }
+      - { name: slug, label: slug }
       - { name: date, label: Date, widget: datetime }
       - { name: body, label: Body, widget: markdown }
