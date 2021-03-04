@@ -1,0 +1,22 @@
+.main-header{
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    ul{
+        display: flex;
+        list-style-type: none;
+        margin:0px;
+        li{
+            padding:10px 20px 10px 20px;
+            margin: 0px;
+            color: white;
+            cursor: pointer;
+            font-family: sans-serif;
+            transition: 0.3s;
+        }
+        li:hover{
+            color: gray;
+            transition: 0.3s;
+        }
+    }
+}

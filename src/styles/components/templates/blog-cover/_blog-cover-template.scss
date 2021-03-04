@@ -1,0 +1,37 @@
+.blog-main{
+    width: 100%;
+    background-color: grey;
+    height: 300px;
+    transition: .4s;
+    .blog-content{
+        padding:20px;
+        height: 100%;
+        position: relative;
+        color: #fff;
+        .blog-title{
+            display: flex;
+            flex-direction: column;
+            span{
+                font-family: sans-serif;
+                font-size: 28px;
+                padding-right: 20%;
+                font-weight: 400;
+            }
+            .blog-cover-footer-text{
+                font-size: 14px;
+                padding-right: 20%;
+                margin-top: auto;
+                position: absolute;
+                bottom: 20px;
+            }
+        }
+    }
+}
+.blog-main:hover{
+    background-color: rgb(26, 26, 26);
+    transition: .4s;
+}
+
+.col-md-6{
+    padding-bottom: 15px;
+}
