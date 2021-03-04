@@ -1,6 +1,5 @@
 backend:
-  name: md-learning
-  repo: venuka-explorelogy/md-learning
+  name: git-gateway
   branch: master
 media_folder: static/assets
 public_folder: /assets
