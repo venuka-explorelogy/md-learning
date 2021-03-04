@@ -1,7 +1,7 @@
 ---
-slug: "/blog/my-first-post"
-subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-title: "My first blog post"
+slug: /blog/my-first-post
+title: My first blog post
+subtitle: Lorem Ipsum is simply dummy text of the printing and typesetting industry
 date: 2021-03-04
 ---
 
